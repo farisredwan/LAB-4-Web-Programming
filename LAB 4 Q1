@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Paragraph Content</title>
+</head>
+<body>
+
+<div id="myElement">
+  <p id="myParagraph">Welcome to my website!</p>
+</div>
+
+<!-- JavaScript section -->
+<script>
+  // Change the content of the paragraph
+  document.getElementById("myParagraph").innerHTML = "Hello there!";
+</script>
+
+</body>
+</html>
